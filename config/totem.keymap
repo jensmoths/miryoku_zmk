@@ -11,6 +11,6 @@
 #include "../zmk-nodefree-config/international_chars/swedish.dtsi"
 
 #undef COMBO_TERM
-#define COMBO_TERM 40  // timeout of 40ms (default is 30ms if omitted)
+#define COMBO_TERM 30  // timeout of 40ms (default is 30ms if omitted)
 ZMK_COMBO(combo_copy,   &kp LC(C),  LB2 LM2, ALL)  // Ctrl + C, active on all layers
 ZMK_COMBO(combo_paste,  &kp LC(V),  LB1 LM1, ALL)  // Ctrl + V, active on all layers

@@ -10,11 +10,11 @@
   #define U_CUT &kp K_CUT
   #define U_UND &kp K_UNDO
 #elif defined (MIRYOKU_CLIPBOARD_MAC)
-  #define U_RDO &kp LS(LG(Z))
-  #define U_PST &kp LG(V)
-  #define U_CPY &kp LG(C)
-  #define U_CUT &kp LG(X)
-  #define U_UND &kp LG(Z)
+  #define U_RDO &kp C_AC_REDO
+  #define U_PST &kp C_AC_PASTE
+  #define U_CPY &kp C_AC_COPY
+  #define U_CUT &kp C_AC_CUT
+  #define U_UND &kp C_AC_UNDO
 #elif defined (MIRYOKU_CLIPBOARD_WIN)
   #define U_RDO &kp LC(Y)
   #define U_PST &kp LC(V)
