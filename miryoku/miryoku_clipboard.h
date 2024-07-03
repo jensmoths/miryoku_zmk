@@ -17,7 +17,7 @@
   #define U_UND &kp C_AC_UNDO
 #elif defined (MIRYOKU_CLIPBOARD_WIN)
   #define U_RDO &kp LC(Y)
-  #define U_PST &kp LC(V)
+  #define U_PST &kp LC(LS(V))
   #define U_CPY &kp LC(C)
   #define U_CUT &kp LC(X)
   #define U_UND &kp LC(Z)
